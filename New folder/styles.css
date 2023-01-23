@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    font-family: 'PT Serif', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+about-us__body-header{
+    display: grid;
+    /* grid-template-rows: auto; */
+    /* grid-template-areas: "heading content content"
+                         "content content content"; */
+} 
+
+
+about-us__body-header >.heading{
+    /* float:left;
+    padding: 10px; */
+    grid-area: heading;
+    
+}
+
+.about-us__body-header > p{
+    grid-area: content;
+}
+
+.about-us__container {
+    width: 80vw;
+    margin: auto;
+}
+
+
+
+nav {
+    background-color: red;
+}
+
+.nav__container {
+    height: 4rem;
+    width: 80vw;
+    margin: auto;
+    /* background-color: red; */
+    /* width: 10rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-left {
+    /* background-color: rgb(216, 36, 36); */
+    /* width: 50%; */
+    height: 100%;
+    flex: 1.5;
+    /* flex: 0 1 0; */
+}
+
+
+.nav-right {
+    /* background-color:white; */
+    /* width: 50%; */
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #4f11ff;
+}
